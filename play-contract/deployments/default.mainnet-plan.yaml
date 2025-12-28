@@ -1,0 +1,25 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://api.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: game-treasury
+            expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
+            cost: 4836966
+            path: contracts/game-treasury.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: card-flip-game
+            expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
+            cost: 4840751
+            path: contracts/card-flip-game.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.5"
