@@ -1,13 +1,17 @@
 [project]
 name = "play-contract"
-description = ""
+description = "Card Flip Game - A blockchain-based gambling platform"
 authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
-# epoch = "latest"
+[contracts.game-treasury]
+path = "contracts/game-treasury.clar"
+epoch = 2.5
+
+[contracts.card-flip-game]
+path = "contracts/card-flip-game.clar"
+epoch = 2.5
 
 [repl.analysis]
 passes = ["check_checker"]
