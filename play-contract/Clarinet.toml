@@ -13,6 +13,18 @@ epoch = 2.5
 path = "contracts/card-flip-game.clar"
 epoch = 2.5
 
+[contracts.game-leaderboard]
+path = "contracts/game-leaderboard.clar"
+epoch = 2.5
+
+[contracts.referral-rewards]
+path = "contracts/referral-rewards.clar"
+epoch = 2.5
+
+[contracts.daily-jackpot]
+path = "contracts/daily-jackpot.clar"
+epoch = 2.5
+
 [repl.analysis]
 passes = ["check_checker"]
 check_checker = { trusted_sender = false, trusted_caller = false, callee_filter = false }
