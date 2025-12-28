@@ -11,14 +11,14 @@ plan:
         - contract-publish:
             contract-name: game-treasury
             expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
-            cost: 4836966
+            cost: 720372
             path: contracts/game-treasury.clar
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: card-flip-game
             expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
-            cost: 4840751
+            cost: 720936
             path: contracts/card-flip-game.clar
             anchor-block-only: true
             clarity-version: 2
