@@ -11,21 +11,21 @@ plan:
         - contract-publish:
             contract-name: daily-jackpot
             expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
-            cost: 29910487
+            cost: 756192
             path: contracts/daily-jackpot.clar
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: game-leaderboard
             expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
-            cost: 29901870
+            cost: 755974
             path: contracts/game-leaderboard.clar
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: referral-rewards
             expected-sender: SPD7WQ5ZTDXV45D3ZCY00N1WTRF106SH9XA0D979
-            cost: 29904332
+            cost: 756037
             path: contracts/referral-rewards.clar
             anchor-block-only: true
             clarity-version: 2
